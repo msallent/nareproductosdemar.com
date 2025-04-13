@@ -5,14 +5,24 @@ import "./globals.css";
 const helveticaNeue = localFont({
   src: [
     {
-      path: "../assets/fonts/HelveticaNeueLight.woff2",
+      path: "../assets/fonts/HelveticaNeue-Light.woff2",
       style: "normal",
       weight: "300",
     },
     {
-      path: "../assets/fonts/HelveticaNeueMedium.woff2",
+      path: "../assets/fonts/HelveticaNeue-Regular.woff2",
+      style: "normal",
+      weight: "400",
+    },
+    {
+      path: "../assets/fonts/HelveticaNeue-Medium.woff2",
       style: "normal",
       weight: "500",
+    },
+    {
+      path: "../assets/fonts/HelveticaNeue-Bold.woff2",
+      style: "normal",
+      weight: "700",
     },
   ],
   variable: "--font-helvetica-neue",
