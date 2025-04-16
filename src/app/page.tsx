@@ -27,7 +27,7 @@ export default function Home() {
           className="h-[85vw] object-cover object-[35%_0%] sm:object-[38.5%_0%] lg:h-[66vw]"
         />
 
-        <nav className="text-3xs xl:text-md absolute top-4.5 right-6 flex gap-1.5 font-medium text-white sm:top-8 sm:right-7 sm:gap-3 sm:text-sm md:top-10 md:right-9 lg:top-12 lg:right-20 lg:text-base xl:top-14 xl:right-28 2xl:text-lg">
+        <nav className="text-3xs xl:text-md absolute top-4.5 right-6 flex gap-1.5 font-medium text-white sm:top-8 sm:right-7 sm:gap-3 sm:text-sm md:top-10 md:right-9 lg:top-12 lg:right-20 lg:text-base xl:top-14 xl:right-28 2xl:top-18.5 2xl:right-30 2xl:text-lg">
           <a>About</a>
           <a>Contacto</a>
         </nav>
@@ -35,12 +35,12 @@ export default function Home() {
         <Image
           alt=""
           src={logoWhite}
-          className="absolute bottom-10.5 left-7 w-17 sm:bottom-14 sm:left-13 sm:w-30 md:bottom-16 md:left-11 md:w-35 lg:bottom-11 lg:left-28 lg:w-40 xl:bottom-14 xl:left-36 xl:w-50 2xl:w-74"
+          className="absolute bottom-10.5 left-7 w-17 sm:bottom-14 sm:left-13 sm:w-30 md:bottom-16 md:left-11 md:w-35 lg:bottom-11 lg:left-28 lg:w-40 xl:bottom-14 xl:left-36 xl:w-50 2xl:bottom-19 2xl:left-43 2xl:w-74"
         />
       </section>
 
       <section className="flex flex-col gap-10 pt-16 pb-9 sm:gap-28 sm:pt-27 sm:pb-12.5 lg:gap-40 lg:pt-40 xl:gap-45 xl:pt-50 xl:pb-16 2xl:gap-51 2xl:pt-67.5 2xl:pb-19">
-        <div className="sm:text-md mx-auto flex w-40 flex-col gap-2 text-center text-xs font-bold sm:w-83 sm:gap-4 lg:w-110 lg:gap-5 lg:text-lg xl:w-138 xl:text-xl 2xl:text-2xl">
+        <div className="sm:text-md mx-auto flex w-40 flex-col gap-2 text-center text-xs font-bold sm:w-83 sm:gap-4 lg:w-110 lg:gap-5 lg:text-lg xl:w-138 xl:text-xl 2xl:w-162 2xl:text-2xl">
           <p>
             Somos una pescadería especializada en la manipulación, conservación
             y distribución de pescados y mariscos de alta calidad en Argentina.
@@ -58,7 +58,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex items-center justify-between gap-10 bg-[#CCCDCE] px-10 pt-17.5 pb-20.5 sm:gap-20 sm:px-25 sm:py-32.5 md:px-24 lg:px-30 lg:py-38 xl:px-40 xl:py-41 2xl:px-48 2xl:py-45">
+      <section className="flex items-center justify-between gap-10 bg-[#CCCDCE] px-10 pt-17.5 pb-20.5 sm:gap-20 sm:px-25 sm:py-32.5 md:px-24 lg:px-30 lg:py-38 xl:px-40 xl:py-41 2xl:px-60 2xl:py-45">
         <p className="w-20 text-sm font-bold sm:w-40 sm:text-xl lg:w-48 lg:text-2xl xl:w-80 xl:text-3xl">
           Cuidados y procesos
         </p>
@@ -88,13 +88,41 @@ export default function Home() {
         />
       </section>
 
-      <section className="px-10 pt-13.5 pb-10 sm:px-14 sm:pt-46.5 sm:pb-22 lg:pt-54 lg:pb-28">
-        <p className="w-18 text-sm font-bold sm:w-38 sm:text-xl lg:w-42 lg:text-2xl xl:w-72 xl:text-3xl">
-          Cocina de testeo
-        </p>
+      <section className="px-10 pt-13.5 pb-10 sm:px-14 sm:pt-46.5 sm:pb-22 lg:pt-54 lg:pb-28 2xl:relative 2xl:h-[85vw] 2xl:px-0 2xl:py-0">
+        <div className="hidden 2xl:absolute 2xl:top-0 2xl:right-0 2xl:flex 2xl:w-1/3">
+          <Image alt="" src={cocina3} className="2xl:flex-1" />
+          <Image alt="" src={cocina4} className="2xl:flex-1" />
+        </div>
+
+        <div className="2xl:absolute 2xl:top-[15%] 2xl:left-1/5 2xl:flex 2xl:w-1/3 2xl:flex-col 2xl:gap-6">
+          <p className="w-18 text-sm font-bold sm:w-38 sm:text-xl lg:w-42 lg:text-2xl xl:w-72 xl:text-3xl">
+            Cocina de testeo
+          </p>
+
+          <div className="hidden 2xl:flex">
+            <Image alt="" src={cocina1} className="2xl:flex-1" />
+            <Image alt="" src={cocina2} className="2xl:flex-1" />
+          </div>
+        </div>
+
+        <div className="hidden 2xl:absolute 2xl:right-[12%] 2xl:bottom-[17%] 2xl:flex 2xl:w-80 2xl:flex-col 2xl:gap-8">
+          <p className="2xl:text-2xl">
+            Nuestra cocina está equipada para el desarrollo de productos propios
+            como, dashi, conservas y enlatados.
+          </p>
+
+          <p className="2xl:w-74 2xl:text-lg">
+            Próximamente van a poder encontrar todos los productos online
+          </p>
+        </div>
+
+        <div className="hidden 2xl:absolute 2xl:bottom-0 2xl:left-0 2xl:flex">
+          <Image alt="" src={cocina5} className="2xl:flex-1" />
+          <Image alt="" src={cocina6} className="2xl:flex-1" />
+        </div>
       </section>
 
-      <section>
+      <section className="2xl:hidden">
         <div className="flex">
           <Image alt="" src={cocina1} className="w-1/4" />
           <Image alt="" src={cocina2} className="w-1/4" />
@@ -107,7 +135,7 @@ export default function Home() {
           <Image alt="" src={cocina6} className="w-1/4" />
 
           <div className="mx-auto flex w-32 flex-col gap-4 pt-12 sm:ml-14 sm:w-63.5 sm:pt-15 lg:ml-20 lg:w-72 lg:pt-20 xl:w-90">
-            <p className="text-2xs sm:text-md lg:text-lg xl:text-xl 2xl:text-2xl">
+            <p className="text-2xs sm:text-md lg:text-lg xl:text-xl">
               Nuestra cocina está equipada para el desarrollo de productos
               propios como, dashi, conservas y enlatados.
             </p>
@@ -117,26 +145,30 @@ export default function Home() {
             </p>
           </div>
         </div>
+      </section>
 
+      <section>
         <Image alt="" src={procesos3} />
       </section>
 
       <section>
         <div className="flex">
-          <div className="flex w-[82.5%] gap-6 px-9 pt-12 sm:gap-9.5 sm:pt-22 sm:pr-7 sm:pl-25 lg:pt-40 lg:pr-18 lg:pl-30 xl:gap-12 xl:pt-50 xl:pr-16">
+          <div className="flex w-[82.5%] gap-6 px-9 pt-12 sm:gap-9.5 sm:pt-22 sm:pr-7 sm:pl-25 lg:pt-40 lg:pr-18 lg:pl-30 xl:gap-12 xl:pt-50 xl:pr-16 2xl:gap-28 2xl:pr-18">
             <p className="sm:text-md w-22 text-sm font-bold sm:w-31 md:text-lg lg:w-55 lg:shrink-0 lg:text-2xl xl:w-90 xl:text-3xl">
               Sala de exhibiciones
             </p>
 
-            <div className="flex flex-col gap-6 sm:gap-5.5 lg:gap-10 xl:gap-12">
-              <p className="text-3xs lg:text-md sm:text-sm xl:text-lg">
+            <div className="flex flex-col gap-6 sm:gap-5.5 lg:gap-10 xl:gap-12 2xl:gap-14">
+              <p className="text-3xs lg:text-md sm:text-sm xl:text-lg 2xl:text-2xl">
                 En la planta tenemos un salón para presentar productos, recibir
                 clientes y también para disfrutar de colaboraciones con
                 cocineros amigos
               </p>
 
-              <button className="flex h-3 w-18 items-center rounded-sm bg-[#CCCDCE] px-1 sm:h-4 sm:w-24 sm:rounded-md sm:px-1.5 lg:h-7.5 lg:w-40 lg:rounded-xl lg:px-4 xl:w-45">
-                <p className="text-4xs sm:text-2xs lg:text-sm">Contactar</p>
+              <button className="flex h-3 w-18 items-center rounded-sm bg-[#CCCDCE] px-1 sm:h-4 sm:w-24 sm:rounded-md sm:px-1.5 lg:h-7.5 lg:w-40 lg:rounded-xl lg:px-4 xl:w-45 2xl:h-11 2xl:w-64 2xl:rounded-2xl">
+                <p className="text-4xs sm:text-2xs 2xl:text-md lg:text-sm">
+                  Contactar
+                </p>
               </button>
             </div>
           </div>
@@ -158,7 +190,7 @@ export default function Home() {
           className="mx-auto w-30 sm:w-45.5 lg:w-50 xl:w-60"
         />
 
-        <div className="sm:text-md mx-auto mt-19 mb-29 flex w-43 flex-col gap-2 text-center text-xs font-light sm:mt-27 sm:mb-33 sm:w-73 sm:gap-5 lg:mt-32 lg:mb-40 lg:w-80 lg:gap-7 lg:text-lg xl:my-35 2xl:text-xl">
+        <div className="sm:text-md mx-auto mt-19 mb-29 flex w-43 flex-col gap-2 text-center text-xs font-light sm:mt-27 sm:mb-33 sm:w-73 sm:gap-5 lg:mt-32 lg:mb-40 lg:w-80 lg:gap-7 lg:text-lg xl:my-35 xl:w-90 2xl:text-xl">
           <div>
             <p className="font-medium">Contacto</p>
             <p className="normal-case!">+541153473948</p>
@@ -179,7 +211,7 @@ export default function Home() {
         <div className="flex flex-col gap-5">
           <div className="sm:text-md text-center text-xs font-medium lg:text-lg 2xl:text-xl">
             <p>Hola!</p>
-            <p className="xl:text-md sm:text-sm sm:font-normal lg:text-base 2xl:text-lg">
+            <p className="xl:text-md sm:text-sm sm:font-normal lg:text-base">
               Estaremos en contacto
             </p>
           </div>
@@ -188,25 +220,25 @@ export default function Home() {
             <input
               type="text"
               placeholder="Nombre"
-              className="xl:text-md h-5.5 rounded-md border border-[#1F2023] px-2 pt-0.5 text-xs sm:h-8 sm:rounded-lg sm:text-sm lg:text-base xl:h-10 xl:rounded-xl 2xl:text-lg"
+              className="xl:text-md h-5.5 rounded-md border border-[#1F2023] px-2 pt-0.5 text-xs sm:h-8 sm:rounded-lg sm:text-sm lg:text-base xl:h-10 xl:rounded-xl 2xl:px-5 2xl:text-lg"
             />
 
             <input
               type="email"
               placeholder="Mail"
-              className="xl:text-md h-5.5 rounded-md border border-[#1F2023] px-2 pt-0.5 text-xs sm:h-8 sm:rounded-lg sm:text-sm lg:text-base xl:h-10 xl:rounded-xl 2xl:text-lg"
+              className="xl:text-md h-5.5 rounded-md border border-[#1F2023] px-2 pt-0.5 text-xs sm:h-8 sm:rounded-lg sm:text-sm lg:text-base xl:h-10 xl:rounded-xl 2xl:px-5 2xl:text-lg"
             />
 
             <input
               type="tel"
               placeholder="Telefono"
-              className="xl:text-md h-5.5 rounded-md border border-[#1F2023] px-2 pt-0.5 text-xs sm:h-8 sm:rounded-lg sm:text-sm lg:text-base xl:h-10 xl:rounded-xl 2xl:text-lg"
+              className="xl:text-md h-5.5 rounded-md border border-[#1F2023] px-2 pt-0.5 text-xs sm:h-8 sm:rounded-lg sm:text-sm lg:text-base xl:h-10 xl:rounded-xl 2xl:px-5 2xl:text-lg"
             />
 
             <textarea
               rows={5}
               placeholder="Consulta"
-              className="xl:text-md resize-none rounded-md border border-[#1F2023] px-2 pt-2 text-xs sm:text-sm lg:text-base xl:rounded-xl 2xl:text-lg"
+              className="xl:text-md resize-none rounded-md border border-[#1F2023] px-2 pt-2 text-xs sm:text-sm lg:text-base xl:rounded-xl 2xl:px-5 2xl:pt-3 2xl:text-lg"
             />
 
             <button
