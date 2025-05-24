@@ -7,7 +7,7 @@ import exhibicion5 from "@/assets/images/exhibicion-5.jpg";
 
 export function Gallery2() {
   return (
-    <section className="section">
+    <section id="galeria2" className="section">
       <p className="text-8 my-15 ml-9.5 w-50">
         En la planta tenemos un salón para presentar productos, recibir clientes
         y también para disfrutar de colaboraciones con cocineros amigos.
@@ -55,9 +55,12 @@ export function Gallery2() {
       </div>
 
       <div className="flex flex-1 items-center justify-center">
-        <p className="text-6 w-25 rounded-full bg-[#CCCDCE] py-1.5 text-center">
+        <a
+          href="#contacto"
+          className="text-6 w-25 rounded-full bg-[#CCCDCE] py-1.5 text-center"
+        >
           Contactar
-        </p>
+        </a>
       </div>
     </section>
   );

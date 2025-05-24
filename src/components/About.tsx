@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section className="section">
+    <section id="about" className="section">
       <section className="relative flex-1">
         <div className="text-8 absolute inset-x-1/2 top-[45%] w-49 -translate-1/2 text-center font-bold">
           <p>

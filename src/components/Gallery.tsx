@@ -3,7 +3,7 @@ import procesos3 from "@/assets/images/procesos-3.jpg";
 
 export function Gallery() {
   return (
-    <section className="section">
+    <section id="galeria" className="section">
       <Image
         fill
         alt=""

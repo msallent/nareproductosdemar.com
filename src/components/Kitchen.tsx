@@ -8,7 +8,7 @@ import cocina6 from "@/assets/images/cocina-6.jpg";
 
 export function Kitchen() {
   return (
-    <section className="section">
+    <section id="cocina" className="section">
       <p className="text-15 mt-14 mb-18.5 ml-10.5 w-26 font-bold">
         Cocina de testeo
       </p>

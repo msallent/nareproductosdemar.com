@@ -39,7 +39,7 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="es">
+    <html lang="es" className="scroll-smooth">
       <body className={`${helveticaNeue.variable} font-primary antialiased`}>
         {children}
       </body>

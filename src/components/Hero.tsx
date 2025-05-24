@@ -4,7 +4,7 @@ import logoWhite from "@/assets/images/logo-white.png";
 
 export function Hero() {
   return (
-    <section className="section">
+    <section id="hero" className="section">
       <Image
         fill
         alt=""
@@ -16,8 +16,8 @@ export function Hero() {
       />
 
       <nav className="text-10 absolute top-10 right-5 flex gap-2 font-medium text-white">
-        <a>About</a>
-        <a>Contacto</a>
+        <a href="#about">About</a>
+        <a href="#contacto">Contacto</a>
       </nav>
 
       <Image
