@@ -39,8 +39,8 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html className="h-full" lang="es">
-      <body className={`${helveticaNeue.variable} font-primary h-full antialiased`}>
+    <html lang="es">
+      <body className={`${helveticaNeue.variable} font-primary antialiased`}>
         {children}
       </body>
     </html>
