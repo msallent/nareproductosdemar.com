@@ -13,7 +13,7 @@ export function Gallery2() {
     >
       <div className="sm:flex sm:items-center sm:justify-between">
         <div className="sm:mx-auto sm:flex sm:flex-col sm:gap-10">
-          <p className="text-8 sm:text-12 lg:text-16 my-[8.57vh] ml-[9.74vw] w-50 sm:my-0 sm:ml-0 sm:w-90 lg:mt-10 lg:w-120">
+          <p className="text-8 sm:text-12 lg:text-16 2xl:text-24 my-[8.57vh] ml-[9.74vw] w-50 sm:my-0 sm:ml-0 sm:w-90 lg:mt-10 lg:w-120 2xl:w-200">
             En la planta tenemos un salón para presentar productos, recibir
             clientes y también para disfrutar de colaboraciones con cocineros
             amigos.
@@ -32,17 +32,25 @@ export function Gallery2() {
           src={exhibicion1}
           quality={100}
           placeholder="blur"
-          className="hidden sm:block sm:w-[23vw]"
+          className="hidden sm:block sm:w-[23vw] 2xl:w-[19vw]"
         />
       </div>
 
       <div className="hidden sm:flex">
         <Image
           alt=""
+          src={exhibicion5}
+          quality={100}
+          placeholder="blur"
+          className="hidden 2xl:block 2xl:w-[32%]"
+        />
+
+        <Image
+          alt=""
           src={exhibicion4}
           quality={100}
           placeholder="blur"
-          className="sm:w-[47%]"
+          className="sm:w-[47%] 2xl:w-[29.8%]"
         />
 
         <Image
@@ -50,7 +58,7 @@ export function Gallery2() {
           src={exhibicion3}
           quality={100}
           placeholder="blur"
-          className="sm:w-[26.5%]"
+          className="sm:w-[26.5%] 2xl:w-[19.1%]"
         />
 
         <Image
@@ -58,7 +66,7 @@ export function Gallery2() {
           src={exhibicion2}
           quality={100}
           placeholder="blur"
-          className="sm:w-[26.5%]"
+          className="sm:w-[26.5%] 2xl:w-[19.1%]"
         />
       </div>
 
