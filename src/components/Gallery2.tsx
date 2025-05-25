@@ -44,6 +44,7 @@ export function Gallery2() {
           placeholder="blur"
           className="sm:w-[47%]"
         />
+
         <Image
           alt=""
           src={exhibicion3}
@@ -51,6 +52,7 @@ export function Gallery2() {
           placeholder="blur"
           className="sm:w-[26.5%]"
         />
+
         <Image
           alt=""
           src={exhibicion2}
@@ -68,6 +70,7 @@ export function Gallery2() {
           placeholder="blur"
           className="w-1/3"
         />
+
         <Image
           alt=""
           src={exhibicion2}
@@ -75,6 +78,7 @@ export function Gallery2() {
           placeholder="blur"
           className="w-1/3"
         />
+
         <Image
           alt=""
           src={exhibicion1}
@@ -92,6 +96,7 @@ export function Gallery2() {
           placeholder="blur"
           className="w-1/2"
         />
+
         <Image
           alt=""
           src={exhibicion5}
