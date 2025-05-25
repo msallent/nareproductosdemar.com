@@ -1,19 +1,39 @@
 import Image from "next/image";
 import hero1 from "@/assets/images/hero-1.jpg";
+import hero2 from "@/assets/images/hero-2.jpg";
+import hero3 from "@/assets/images/hero-3.jpg";
 import logoWhite from "@/assets/images/logo-white.png";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselProgress,
+} from "@/components/ui/carousel";
+
+const HERO_IMAGES = [hero1, hero2, hero3];
 
 export function Hero() {
   return (
     <section id="hero" className="section">
-      <Image
-        fill
-        alt=""
-        priority
-        src={hero1}
-        quality={100}
-        placeholder="blur"
-        className="object-cover"
-      />
+      <Carousel>
+        <CarouselContent>
+          {HERO_IMAGES.map((image, index) => (
+            <CarouselItem key={index}>
+              <Image
+                fill
+                alt=""
+                src={image}
+                quality={100}
+                placeholder="blur"
+                className="object-cover"
+                priority={index === 0}
+              />
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+
+        <CarouselProgress />
+      </Carousel>
 
       <nav className="text-10 absolute top-10 right-5 flex gap-2 font-medium text-white">
         <a href="#about">About</a>
