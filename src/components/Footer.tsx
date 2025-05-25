@@ -12,25 +12,25 @@ export function Footer() {
             <input
               type="text"
               placeholder="Nombre"
-              className="text-6 rounded-md border border-black px-2 py-1.5"
+              className="text-6 rounded-md border border-black px-2 py-1.5 placeholder:uppercase"
             />
 
             <input
               type="email"
               placeholder="Mail"
-              className="text-6 rounded-md border border-black px-2 py-1.5"
+              className="text-6 rounded-md border border-black px-2 py-1.5 placeholder:uppercase"
             />
 
             <input
               type="tel"
               placeholder="Telefono"
-              className="text-6 rounded-md border border-black px-2 py-1.5"
+              className="text-6 rounded-md border border-black px-2 py-1.5 placeholder:uppercase"
             />
 
             <textarea
               rows={5}
               placeholder="Consulta"
-              className="text-6 resize-none rounded-md border border-black px-2 py-1.5"
+              className="text-6 resize-none rounded-md border border-black px-2 py-1.5 placeholder:uppercase"
             />
 
             <p className="text-6 mx-auto mt-5 w-25 rounded-full bg-[#CCCDCE] py-1.5 text-center">
