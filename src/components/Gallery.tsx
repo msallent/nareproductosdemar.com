@@ -10,10 +10,10 @@ export function Gallery() {
         src={procesos3}
         quality={100}
         placeholder="blur"
-        className="object-cover object-[76.5%] sm:object-[48%]"
+        className="object-cover object-[76.5%] sm:object-[48%] lg:object-right"
       />
 
-      <p className="text-15 sm:text-24 md:text-40 absolute bottom-[38.57vh] left-[9.74vw] w-34 font-bold text-white sm:w-52">
+      <p className="text-15 sm:text-24 lg:text-40 absolute bottom-[38.57vh] left-[9.74vw] w-34 font-bold text-white sm:w-52 lg:right-[6.83vw] lg:left-auto lg:w-90 lg:text-right">
         Sala de exhibiciones
       </p>
     </section>

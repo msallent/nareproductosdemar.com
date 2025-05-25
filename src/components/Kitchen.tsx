@@ -10,7 +10,7 @@ export function Kitchen() {
   return (
     <section id="cocina" className="section sm:justify-between">
       <div className="flex items-center justify-between">
-        <p className="text-15 sm:text-20 md:text-26 mt-[8vh] mb-[10.57vh] ml-[10.76vw] w-26 font-bold sm:my-0 sm:w-36">
+        <p className="text-15 sm:text-20 lg:text-24 mt-[8vh] mb-[10.57vh] ml-[10.76vw] w-26 font-bold sm:my-0 sm:w-36 lg:w-42">
           Cocina de testeo
         </p>
 
@@ -20,7 +20,7 @@ export function Kitchen() {
             src={cocina3}
             quality={100}
             placeholder="blur"
-            className="sm:w-[21vw]"
+            className="sm:w-[21vw] md:w-[16.5vw]"
           />
 
           <Image
@@ -28,7 +28,7 @@ export function Kitchen() {
             src={cocina4}
             quality={100}
             placeholder="blur"
-            className="sm:w-[21vw]"
+            className="sm:w-[21vw] md:w-[16.5vw]"
           />
         </div>
       </div>
@@ -55,7 +55,7 @@ export function Kitchen() {
           src={cocina5}
           quality={100}
           placeholder="blur"
-          className="hidden sm:block sm:w-[21vw]"
+          className="hidden sm:block sm:w-[21vw] md:w-[16.5vw]"
         />
 
         <Image
@@ -63,16 +63,16 @@ export function Kitchen() {
           src={cocina6}
           quality={100}
           placeholder="blur"
-          className="hidden sm:block sm:w-[21vw]"
+          className="hidden sm:block sm:w-[21vw] md:w-[16.5vw]"
         />
 
-        <p className="text-7 sm:text-12 md:text-14 ml-7.5 w-25 sm:ml-17 sm:w-54">
+        <p className="text-7 sm:text-12 lg:text-14 ml-7.5 w-25 sm:ml-17 sm:w-54 lg:ml-[17vw] lg:w-68">
           Nuestra cocina está equipada para el desarrollo de productos propios
           como, dashi, conservas y enlatados.
         </p>
       </div>
 
-      <div className="ml-[26.66vw] flex sm:mr-[5.25vw] sm:ml-0 sm:items-center sm:justify-end">
+      <div className="ml-[26.66vw] flex sm:mr-[5.25vw] sm:ml-0 sm:items-center sm:justify-end lg:mr-[16.5vw]">
         <Image
           alt=""
           src={cocina5}
@@ -89,7 +89,7 @@ export function Kitchen() {
           className="w-[23.58vw] sm:hidden"
         />
 
-        <p className="sm:text-10 md:text-11 hidden sm:mr-17 sm:block sm:w-45">
+        <p className="sm:text-10 lg:text-11 hidden sm:mr-17 sm:block sm:w-45 lg:mr-[23vw] lg:w-46">
           Próximamente van a poder encontrar todos los productos online
         </p>
 
@@ -98,7 +98,7 @@ export function Kitchen() {
           src={cocina1}
           quality={100}
           placeholder="blur"
-          className="hidden sm:block sm:w-[21vw]"
+          className="hidden sm:block sm:w-[21vw] md:w-[16.5vw]"
         />
 
         <Image
@@ -106,7 +106,7 @@ export function Kitchen() {
           src={cocina2}
           quality={100}
           placeholder="blur"
-          className="hidden sm:block sm:w-[21vw]"
+          className="hidden sm:block sm:w-[21vw] md:w-[16.5vw]"
         />
       </div>
 

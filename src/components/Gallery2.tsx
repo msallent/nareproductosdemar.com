@@ -7,10 +7,13 @@ import exhibicion5 from "@/assets/images/exhibicion-5.jpg";
 
 export function Gallery2() {
   return (
-    <section id="galeria2" className="section sm:justify-center">
+    <section
+      id="galeria2"
+      className="section sm:justify-center lg:overflow-hidden"
+    >
       <div className="sm:flex sm:items-center sm:justify-between">
         <div className="sm:mx-auto sm:flex sm:flex-col sm:gap-10">
-          <p className="text-8 sm:text-12 md:text-16 my-[8.57vh] ml-[9.74vw] w-50 sm:my-0 sm:ml-0 sm:w-90">
+          <p className="text-8 sm:text-12 lg:text-16 my-[8.57vh] ml-[9.74vw] w-50 sm:my-0 sm:ml-0 sm:w-90 lg:mt-10 lg:w-120">
             En la planta tenemos un salón para presentar productos, recibir
             clientes y también para disfrutar de colaboraciones con cocineros
             amigos.
@@ -18,7 +21,7 @@ export function Gallery2() {
 
           <a
             href="#contacto"
-            className="sm:text-6 hidden sm:block sm:w-25 sm:rounded-full sm:bg-[#CCCDCE] sm:py-1.5 sm:text-center"
+            className="sm:text-11 lg:text-15 hidden sm:block sm:w-35 sm:rounded-full sm:bg-[#CCCDCE] sm:py-1.5 sm:text-center lg:w-45"
           >
             Contactar
           </a>
@@ -39,21 +42,21 @@ export function Gallery2() {
           src={exhibicion4}
           quality={100}
           placeholder="blur"
-          className="sm:w-2/4"
+          className="sm:w-[47%]"
         />
         <Image
           alt=""
           src={exhibicion3}
           quality={100}
           placeholder="blur"
-          className="sm:w-1/4"
+          className="sm:w-[26.5%]"
         />
         <Image
           alt=""
           src={exhibicion2}
           quality={100}
           placeholder="blur"
-          className="sm:w-1/4"
+          className="sm:w-[26.5%]"
         />
       </div>
 
