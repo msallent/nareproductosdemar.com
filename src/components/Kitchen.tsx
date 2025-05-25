@@ -69,7 +69,7 @@ export function Kitchen() {
           src={cocina5}
           quality={100}
           placeholder="blur"
-          className="hidden sm:block xl:w-[14.37vw]"
+          className="hidden sm:block sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
         />
 
         <Image
@@ -77,7 +77,7 @@ export function Kitchen() {
           src={cocina6}
           quality={100}
           placeholder="blur"
-          className="hidden xl:block xl:w-[14.37vw]"
+          className="hidden sm:block sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
         />
 
         <Image

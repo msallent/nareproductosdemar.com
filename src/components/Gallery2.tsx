@@ -11,9 +11,9 @@ export function Gallery2() {
       id="galeria2"
       className="section sm:justify-center lg:overflow-hidden"
     >
-      <div className="sm:flex sm:items-center sm:justify-between">
+      <div className="flex flex-1 items-center sm:grow-0 sm:justify-between">
         <div className="sm:mx-auto sm:flex sm:flex-col sm:gap-10">
-          <p className="text-8 sm:text-12 lg:text-16 2xl:text-24 my-[8.57vh] ml-[9.74vw] w-50 sm:my-0 sm:ml-0 sm:w-90 lg:mt-10 lg:w-120 xl:w-140 2xl:w-200">
+          <p className="text-8 sm:text-12 lg:text-16 2xl:text-24 ml-[9.74vw] w-50 sm:ml-0 sm:w-90 lg:mt-10 lg:w-120 xl:w-140 2xl:w-200">
             En la planta tenemos un salón para presentar productos, recibir
             clientes y también para disfrutar de colaboraciones con cocineros
             amigos.

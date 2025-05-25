@@ -17,7 +17,7 @@ export function About2() {
             src={procesos1}
             quality={100}
             placeholder="blur"
-            className="object-cover xl:object-bottom"
+            className="object-cover object-right sm:object-center xl:object-bottom"
           />
         </div>
 
@@ -28,7 +28,7 @@ export function About2() {
             src={procesos2}
             quality={100}
             placeholder="blur"
-            className="object-cover xl:object-bottom"
+            className="object-cover object-left sm:object-center xl:object-bottom"
           />
         </div>
       </div>
