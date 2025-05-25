@@ -8,7 +8,7 @@ import exhibicion5 from "@/assets/images/exhibicion-5.jpg";
 export function Gallery2() {
   return (
     <section id="galeria2" className="section">
-      <p className="text-8 my-15 ml-9.5 w-50">
+      <p className="text-8 my-[8.57vh] ml-[9.74vw] w-50">
         En la planta tenemos un salón para presentar productos, recibir clientes
         y también para disfrutar de colaboraciones con cocineros amigos.
       </p>

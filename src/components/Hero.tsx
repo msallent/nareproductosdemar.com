@@ -35,7 +35,7 @@ export function Hero() {
         <CarouselProgress />
       </Carousel>
 
-      <nav className="text-10 absolute top-10 right-5 flex gap-2 font-medium text-white">
+      <nav className="text-10 absolute top-[5.71vh] right-[5.12vw] flex gap-2 font-medium text-white">
         <a href="#about">About</a>
         <a href="#contacto">Contacto</a>
       </nav>
@@ -45,7 +45,7 @@ export function Hero() {
         src={logoWhite}
         quality={100}
         placeholder="blur"
-        className="absolute bottom-17.5 left-11 w-26"
+        className="absolute bottom-[10vh] left-[11.28vw] w-26"
       />
     </section>
   );

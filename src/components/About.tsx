@@ -16,7 +16,7 @@ export function About() {
           </p>
         </div>
 
-        <div className="text-6 absolute inset-x-8 bottom-10 flex justify-between">
+        <div className="text-6 absolute inset-x-[8.2%] bottom-[11.42%] flex justify-between">
           <p>Buenos Aires</p>
           <p>Argentina</p>
         </div>

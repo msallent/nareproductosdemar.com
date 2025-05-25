@@ -5,7 +5,7 @@ import procesos2 from "@/assets/images/procesos-2.jpg";
 export function About2() {
   return (
     <section id="about2" className="section">
-      <p className="text-11 absolute inset-x-1/2 inset-y-1/2 z-10 w-56 -translate-1/2 text-center font-bold text-white">
+      <p className="text-11 absolute inset-1/2 z-10 w-56 -translate-1/2 text-center font-bold text-white">
         Manipulación, conservación y distribución de pescados y mariscos
       </p>
 

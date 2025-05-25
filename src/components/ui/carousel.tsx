@@ -139,7 +139,7 @@ function CarouselProgress(props: ComponentProps<"div">) {
   return (
     <div
       role="progressbar"
-      className="absolute inset-x-1/2 bottom-9 flex w-min -translate-x-1/2 justify-center gap-1.5"
+      className="absolute inset-x-1/2 bottom-[5.14%] flex w-min -translate-x-1/2 justify-center gap-1.5"
       {...props}
     >
       {Array.from({ length: count }, (_, index) => (

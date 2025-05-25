@@ -13,7 +13,7 @@ export function Gallery() {
         className="object-cover object-[76.5%]"
       />
 
-      <p className="text-15 absolute bottom-67.5 left-9.5 w-34 font-bold text-white">
+      <p className="text-15 absolute bottom-[38.57vh] left-[9.74vw] w-34 font-bold text-white">
         Sala de exhibiciones
       </p>
     </section>

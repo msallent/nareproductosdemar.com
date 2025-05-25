@@ -9,7 +9,7 @@ import cocina6 from "@/assets/images/cocina-6.jpg";
 export function Kitchen() {
   return (
     <section id="cocina" className="section">
-      <p className="text-15 mt-14 mb-18.5 ml-10.5 w-26 font-bold">
+      <p className="text-15 mt-[8vh] mb-[10.57vh] ml-[10.76vw] w-26 font-bold">
         Cocina de testeo
       </p>
 
@@ -19,14 +19,14 @@ export function Kitchen() {
           src={cocina1}
           quality={100}
           placeholder="blur"
-          className="w-23"
+          className="w-[23.58vw]"
         />
         <Image
           alt=""
           src={cocina2}
           quality={100}
           placeholder="blur"
-          className="w-23"
+          className="w-[23.58vw]"
         />
 
         <p className="text-7 ml-7.5 w-25">
@@ -35,41 +35,41 @@ export function Kitchen() {
         </p>
       </div>
 
-      <div className="ml-26 flex">
+      <div className="ml-[26.66vw] flex">
         <Image
           alt=""
           src={cocina5}
           quality={100}
           placeholder="blur"
-          className="w-23"
+          className="w-[23.58vw]"
         />
         <Image
           alt=""
           src={cocina6}
           quality={100}
           placeholder="blur"
-          className="w-23"
+          className="w-[23.58vw]"
         />
       </div>
 
-      <div className="ml-26 flex">
+      <div className="ml-[26.66vw] flex">
         <Image
           alt=""
           src={cocina3}
           quality={100}
           placeholder="blur"
-          className="w-23"
+          className="w-[23.58vw]"
         />
         <Image
           alt=""
           src={cocina4}
           quality={100}
           placeholder="blur"
-          className="w-23"
+          className="w-[23.58vw]"
         />
       </div>
 
-      <p className="text-7 mt-7.5 ml-26 w-29">
+      <p className="text-7 mt-7.5 ml-[26.66vw] w-29">
         Próximamente van a poder encontrar todos los productos online
       </p>
     </section>
