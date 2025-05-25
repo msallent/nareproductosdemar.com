@@ -1,19 +1,19 @@
 import Image from "next/image";
-import logoWhite from "@/assets/images/logo-white.png";
+import logo from "@/assets/images/logo.png";
 
 export function Contact() {
   return (
     <section id="contacto" className="section">
-      <div className="flex flex-1 flex-col items-center justify-center gap-25 bg-[#CCCDCE]">
+      <div className="flex flex-1 flex-col items-center justify-center gap-25 bg-[#CCCDCE] sm:gap-20">
         <Image
           alt=""
-          src={logoWhite}
+          src={logo}
           quality={100}
           placeholder="blur"
-          className="w-35"
+          className="w-35 sm:w-45"
         />
 
-        <div className="text-10 mx-auto w-50 text-center font-light text-white">
+        <div className="text-10 sm:text-12 md:text-16 mx-auto w-50 text-center font-light text-white sm:w-60">
           <p className="font-medium">Contacto</p>
           <p className="normal-case!">+541153473948</p>
           <p className="normal-case!">info@nareproductosdemar.com</p>

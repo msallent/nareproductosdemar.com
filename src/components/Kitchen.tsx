@@ -8,51 +8,109 @@ import cocina6 from "@/assets/images/cocina-6.jpg";
 
 export function Kitchen() {
   return (
-    <section id="cocina" className="section">
-      <p className="text-15 mt-[8vh] mb-[10.57vh] ml-[10.76vw] w-26 font-bold">
-        Cocina de testeo
-      </p>
+    <section id="cocina" className="section sm:justify-between">
+      <div className="flex items-center justify-between">
+        <p className="text-15 sm:text-20 md:text-26 mt-[8vh] mb-[10.57vh] ml-[10.76vw] w-26 font-bold sm:my-0 sm:w-36">
+          Cocina de testeo
+        </p>
 
-      <div className="flex">
+        <div className="hidden sm:flex">
+          <Image
+            alt=""
+            src={cocina3}
+            quality={100}
+            placeholder="blur"
+            className="sm:w-[21vw]"
+          />
+
+          <Image
+            alt=""
+            src={cocina4}
+            quality={100}
+            placeholder="blur"
+            className="sm:w-[21vw]"
+          />
+        </div>
+      </div>
+
+      <div className="flex sm:items-center">
         <Image
           alt=""
           src={cocina1}
           quality={100}
           placeholder="blur"
-          className="w-[23.58vw]"
+          className="w-[23.58vw] sm:hidden"
         />
+
         <Image
           alt=""
           src={cocina2}
           quality={100}
           placeholder="blur"
-          className="w-[23.58vw]"
+          className="w-[23.58vw] sm:hidden"
         />
 
-        <p className="text-7 ml-7.5 w-25">
-          Nuestra cocina está equipada para el desarrollo de productos propios
-          como, dashi, conservas y enlatados.
-        </p>
-      </div>
-
-      <div className="ml-[26.66vw] flex">
         <Image
           alt=""
           src={cocina5}
           quality={100}
           placeholder="blur"
-          className="w-[23.58vw]"
+          className="hidden sm:block sm:w-[21vw]"
         />
+
         <Image
           alt=""
           src={cocina6}
           quality={100}
           placeholder="blur"
-          className="w-[23.58vw]"
+          className="hidden sm:block sm:w-[21vw]"
+        />
+
+        <p className="text-7 sm:text-12 md:text-14 ml-7.5 w-25 sm:ml-17 sm:w-54">
+          Nuestra cocina está equipada para el desarrollo de productos propios
+          como, dashi, conservas y enlatados.
+        </p>
+      </div>
+
+      <div className="ml-[26.66vw] flex sm:mr-[5.25vw] sm:ml-0 sm:items-center sm:justify-end">
+        <Image
+          alt=""
+          src={cocina5}
+          quality={100}
+          placeholder="blur"
+          className="w-[23.58vw] sm:hidden"
+        />
+
+        <Image
+          alt=""
+          src={cocina6}
+          quality={100}
+          placeholder="blur"
+          className="w-[23.58vw] sm:hidden"
+        />
+
+        <p className="sm:text-10 md:text-11 hidden sm:mr-17 sm:block sm:w-45">
+          Próximamente van a poder encontrar todos los productos online
+        </p>
+
+        <Image
+          alt=""
+          src={cocina1}
+          quality={100}
+          placeholder="blur"
+          className="hidden sm:block sm:w-[21vw]"
+        />
+
+        <Image
+          alt=""
+          src={cocina2}
+          quality={100}
+          placeholder="blur"
+          className="hidden sm:block sm:w-[21vw]"
         />
       </div>
 
-      <div className="ml-[26.66vw] flex">
+      <div className="ml-[26.66vw] flex sm:hidden">
         <Image
           alt=""
           src={cocina3}
@@ -60,6 +118,7 @@ export function Kitchen() {
           placeholder="blur"
           className="w-[23.58vw]"
         />
+
         <Image
           alt=""
           src={cocina4}
@@ -69,7 +128,7 @@ export function Kitchen() {
         />
       </div>
 
-      <p className="text-7 mt-7.5 ml-[26.66vw] w-29">
+      <p className="text-7 mt-7.5 ml-[26.66vw] w-29 sm:hidden">
         Próximamente van a poder encontrar todos los productos online
       </p>
     </section>
