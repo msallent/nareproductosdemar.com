@@ -49,6 +49,10 @@
   --text-24--letter-spacing: 3.36px;
   --text-24--line-height: 29px;
 
+  --text-32: 2rem; /* 32px */
+  --text-32--letter-spacing: 4.48px;
+  --text-32--line-height: 39px;
+
   --text-40: 2.5rem; /* 40px */
   --text-40--letter-spacing: 5.6px;
   --text-40--line-height: 49px;
