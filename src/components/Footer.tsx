@@ -36,7 +36,7 @@ export function Footer() {
               className="text-6 sm:text-10 lg:text-13 resize-none rounded-md border border-black px-2 py-1.5 placeholder:uppercase lg:rounded-xl lg:px-3 lg:py-2"
             />
 
-            <p className="text-6 sm:text-11 lg:text-15 mx-auto mt-5 w-25 rounded-full bg-[#CCCDCE] py-1.5 text-center sm:w-40 sm:py-2 lg:mt-10 lg:w-60 lg:rounded-2xl lg:py-2.5">
+            <p className="text-6 sm:text-11 lg:text-15 lb:pb-2 mx-auto mt-5 w-25 rounded-full bg-[#CCCDCE] pt-1.5 pb-1.25 text-center sm:w-40 sm:pt-2 sm:pb-1.5 lg:mt-10 lg:w-60 lg:rounded-2xl lg:pt-2.5">
               Enviar
             </p>
           </form>

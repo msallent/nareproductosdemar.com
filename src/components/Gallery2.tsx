@@ -21,7 +21,7 @@ export function Gallery2() {
 
           <a
             href="#contacto"
-            className="sm:text-11 lg:text-15 hidden sm:block sm:w-35 sm:rounded-full sm:bg-[#CCCDCE] sm:py-1.5 sm:text-center lg:w-45"
+            className="sm:text-11 lg:text-14 hidden sm:block sm:w-35 sm:rounded-full sm:bg-[#CCCDCE] sm:pt-1.5 sm:pb-1.25 sm:text-center lg:w-45 lg:pt-2 lg:pb-1.5"
           >
             Contactar
           </a>
@@ -117,7 +117,7 @@ export function Gallery2() {
       <div className="flex flex-1 items-center justify-center sm:hidden">
         <a
           href="#contacto"
-          className="text-6 w-25 rounded-full bg-[#CCCDCE] py-1.5 text-center"
+          className="text-6 w-25 rounded-full bg-[#CCCDCE] pt-1.5 pb-1.25 text-center"
         >
           Contactar
         </a>
