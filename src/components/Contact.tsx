@@ -21,7 +21,7 @@ export function Contact() {
           <br />
 
           <p className="font-medium">Ubicación</p>
-          <p className="normal-case!">Villa Ortuzar, Buenos Aires</p>
+          <p className="normal-case!">Villa Ortúzar, Buenos Aires</p>
 
           <br />
 
