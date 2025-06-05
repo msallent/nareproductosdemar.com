@@ -23,7 +23,7 @@ export function Kitchen() {
             src={cocina3}
             quality={100}
             placeholder="blur"
-            className="sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
+            className="self-stretch sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
           />
 
           <Image
@@ -31,7 +31,7 @@ export function Kitchen() {
             src={cocina4}
             quality={100}
             placeholder="blur"
-            className="sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
+            className="self-stretch sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
           />
 
           <div className="hidden xl:absolute xl:top-full xl:mt-24 xl:flex xl:flex-col xl:gap-6 2xl:mt-33 2xl:gap-10">
@@ -53,7 +53,7 @@ export function Kitchen() {
           src={cocina1}
           quality={100}
           placeholder="blur"
-          className="w-[23.58vw] sm:hidden"
+          className="w-[23.58vw] self-stretch sm:hidden"
         />
 
         <Image
@@ -61,7 +61,7 @@ export function Kitchen() {
           src={cocina2}
           quality={100}
           placeholder="blur"
-          className="w-[23.58vw] sm:hidden"
+          className="w-[23.58vw] self-stretch sm:hidden"
         />
 
         <Image
@@ -69,7 +69,7 @@ export function Kitchen() {
           src={cocina5}
           quality={100}
           placeholder="blur"
-          className="hidden sm:block sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
+          className="hidden self-stretch sm:block sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
         />
 
         <Image
@@ -77,7 +77,7 @@ export function Kitchen() {
           src={cocina6}
           quality={100}
           placeholder="blur"
-          className="hidden sm:block sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
+          className="hidden self-stretch sm:block sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
         />
 
         <Image
@@ -85,7 +85,7 @@ export function Kitchen() {
           src={cocina1}
           quality={100}
           placeholder="blur"
-          className="hidden xl:block xl:w-[14.37vw]"
+          className="hidden self-stretch xl:block xl:w-[14.37vw]"
         />
 
         <Image
@@ -93,7 +93,7 @@ export function Kitchen() {
           src={cocina2}
           quality={100}
           placeholder="blur"
-          className="hidden xl:block xl:w-[14.37vw]"
+          className="hidden self-stretch xl:block xl:w-[14.37vw]"
         />
 
         <p className="text-7 sm:text-12 lg:text-14 ml-7.5 w-25 sm:ml-17 sm:w-54 lg:ml-[17vw] lg:w-68 xl:hidden">
@@ -108,7 +108,7 @@ export function Kitchen() {
           src={cocina5}
           quality={100}
           placeholder="blur"
-          className="w-[23.58vw] sm:hidden"
+          className="w-[23.58vw] self-stretch sm:hidden"
         />
 
         <Image
@@ -116,7 +116,7 @@ export function Kitchen() {
           src={cocina6}
           quality={100}
           placeholder="blur"
-          className="w-[23.58vw] sm:hidden"
+          className="w-[23.58vw] self-stretch sm:hidden"
         />
 
         <p className="sm:text-10 lg:text-11 hidden sm:mr-17 sm:block sm:w-45 lg:mr-[23vw] lg:w-46">
@@ -128,7 +128,7 @@ export function Kitchen() {
           src={cocina1}
           quality={100}
           placeholder="blur"
-          className="hidden sm:block sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
+          className="hidden self-stretch sm:block sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
         />
 
         <Image
@@ -136,7 +136,7 @@ export function Kitchen() {
           src={cocina2}
           quality={100}
           placeholder="blur"
-          className="hidden sm:block sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
+          className="hidden self-stretch sm:block sm:w-[21vw] md:w-[16.5vw] xl:w-[14.37vw]"
         />
       </div>
 
@@ -146,7 +146,7 @@ export function Kitchen() {
           src={cocina3}
           quality={100}
           placeholder="blur"
-          className="w-[23.58vw]"
+          className="w-[23.58vw] self-stretch"
         />
 
         <Image
@@ -154,7 +154,7 @@ export function Kitchen() {
           src={cocina4}
           quality={100}
           placeholder="blur"
-          className="w-[23.58vw]"
+          className="w-[23.58vw] self-stretch"
         />
       </div>
 
