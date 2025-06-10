@@ -1,3 +1,5 @@
+import { Form } from "./Form";
+
 export function Footer() {
   return (
     <section id="footer" className="section">
@@ -11,35 +13,7 @@ export function Footer() {
             </p>
           </div>
 
-          <form className="flex w-43 flex-col gap-3.5 sm:w-70 lg:w-90 lg:gap-5">
-            <input
-              type="text"
-              placeholder="Nombre"
-              className="text-6 sm:text-10 lg:text-13 rounded-md border border-black px-2 py-1.5 placeholder:uppercase lg:rounded-xl lg:px-3 lg:py-2"
-            />
-
-            <input
-              type="email"
-              placeholder="Mail"
-              className="text-6 sm:text-10 lg:text-13 rounded-md border border-black px-2 py-1.5 placeholder:uppercase lg:rounded-xl lg:px-3 lg:py-2"
-            />
-
-            <input
-              type="tel"
-              placeholder="Telefono"
-              className="text-6 sm:text-10 lg:text-13 rounded-md border border-black px-2 py-1.5 placeholder:uppercase lg:rounded-xl lg:px-3 lg:py-2"
-            />
-
-            <textarea
-              rows={5}
-              placeholder="Consulta"
-              className="text-6 sm:text-10 lg:text-13 resize-none rounded-md border border-black px-2 py-1.5 placeholder:uppercase lg:rounded-xl lg:px-3 lg:py-2"
-            />
-
-            <p className="text-6 sm:text-11 lg:text-15 lb:pb-2 mx-auto mt-5 w-25 rounded-full bg-[#CCCDCE] pt-1.5 pb-1.25 text-center sm:w-40 sm:pt-2 sm:pb-1.5 lg:mt-10 lg:w-60 lg:rounded-2xl lg:pt-2.5">
-              Enviar
-            </p>
-          </form>
+          <Form />
         </div>
 
         <footer className="flex items-center justify-center gap-4 bg-[#CCCDCE] py-9.5 sm:gap-6.5 sm:py-11 lg:gap-10">
